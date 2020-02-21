@@ -101,7 +101,52 @@ h1, h2, h3, h4, h5 {
 	vertical-align: middle;
 }
 
-.footer-contact{
+.first-content{
+	column-count: 2;
+	text-align: center;
+	padding: 5% 0;
+	vertical-align: middle;
+
+	border-bottom: 1px solid black;
+}
+
+.left{
+	padding-top: 10%;
+}
+
+.left a {
+	text-decoration: none;
+	color: black;
+	padding: 5px 40px;
+	border: 1px solid black;
+}
+
+.first-content h1 {
+	font-size: 72px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.arg-one{
+	column-count: 2;
+}
+
+
+.second-content{
+	padding: 5% 0;
+}
+
+.arg-2{
+	padding: 3% 0;
+}
+
+.arg-3{
+	column-count: 3;
+	padding: 5% 0;
+	border-bottom: 1px solid black;
+}
+
+.footer{
 	padding-top: 	4%;
 }
 
