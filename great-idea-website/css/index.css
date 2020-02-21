@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/*#region Lambda*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -58,9 +59,64 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Odibee Sans', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/*#endregion*/
 
 /* Your code starts here! */
+
+.main-container{
+	width: 876px;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+.nav-bar{
+	display: block;
+	width: 876px;
+	padding: 20px;
+	margin-bottom: 5%;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	background-color: white;
+}
+
+.nav-bar a{
+	padding-left: 3%;
+
+	font-size: large;
+	text-decoration: none;
+	color: darkgray;
+
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.logo {
+	padding-left: 10%;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.footer-contact{
+	padding-top: 	4%;
+}
+
+.footer-copyright{
+	padding: 		3%;
+	font-size: 		small;
+	text-align: 	center;
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .main-container{
+	padding-top: 60px;
+}
